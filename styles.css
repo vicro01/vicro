@@ -1,0 +1,250 @@
+{
+  outline: 1px dotted red;
+}
+
+.layout {
+  color:black;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  line-height: 23px;
+}
+
+.left {
+  width:20%;
+  height: 100%;
+  background-color: #FFD131;
+  padding-left: 100px;
+  margin-right: 20px;
+  flex-direction: row;
+}
+
+.right {
+  width:50%;
+  height: 100%;
+  background-color: white;
+  text-align: inherit;
+}
+
+.section-h4_left{
+  color:#FFD131;
+  font-family: 'Roboto Slab', serif;
+  font-size:20px;
+}
+.section-h4_right{
+  font-family: 'Roboto Slab', serif;
+  font-size:20px;
+  margin-top: 40px;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+}
+
+img{
+  width:70%;
+  border-radius: color;
+  background-size: cover;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.image{
+  text-align: center;
+  border-radius: color;
+  height: 15%;
+}
+
+.bare{
+  background-color: #353238;
+  min-width: inherit;
+  text-align: center;
+  padding:0px;
+  margin-top: 20px;
+}
+
+.bare_hob{
+  background-color: #353238;
+  min-width: inherit;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  color:#2E282A;
+  position: end;
+  font-size: 55px;
+  margin-top: 20px;
+}
+
+section{
+  padding:0px !important;
+}
+
+.information{
+  color:#011627;
+  margin: 35px;
+  text-align: justify;
+}
+
+.info{
+  width: 60%;
+}
+
+.hobbies{
+  height: 5%;
+}
+
+.section-h4_left bare_hob{
+  margin-top: 10px;
+}
+
+.about{
+  height: 45%;
+
+}
+
+.contact{
+  height: 25%;
+}
+
+.adress{
+  color: #011627;
+  margin: 35px;
+}
+
+h4{
+  margin:0;
+}
+
+.line{
+  color: #ec4e20;
+  style: solid;
+}
+
+.flex{
+  display: flex;
+}
+
+.lista{
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #011627;
+  margin-top: 5px;
+}
+
+.name{
+  font-size: 40px;
+  color:#FFD131;
+  margin-bottom: 0px;
+}
+
+.position{
+  padding-top: 0px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.namesurname{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.surname{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 0;
+}
+
+
+.up1{
+display: flex;
+margin-left: 25px;
+margin-bottom: 25px;
+
+}
+
+.horline{
+   height: 1px;
+   border: none;
+   border-top: 3px solid #FFD131;
+
+   }
+
+.total{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Rubik', sans-serif;
+  justify-content: center;
+}
+
+.down1{
+  display: flex;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.down_reference{
+  display: flex;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.icon{
+  width: 10%;
+}
+
+.fa2 {
+margin-right: 10px;
+font-size: inherit;
+color: #FFD131;
+}
+
+.years{
+margin-right: 70px;
+width: 30%;
+}
+
+.years p{
+  margin: 0;
+}
+
+.education{
+  display: flex;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.faimg{
+  color: #FFD131;
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 25px;
+}
+
+.underline{
+  margin-top: 0;
+  color: #FFD131;
+  size: 10px;
+}
+
+.section-hr{
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width:550px){
+  .left,
+  .right{
+    width:100%;
+    }
+  .layout{
+    flex-direction: column;
+  }
+}
