@@ -22,7 +22,7 @@
 }
 
 .right {
-  width:50%;
+  width:45%;
   height: 100%;
   background-color: white;
   text-align: inherit;
@@ -93,7 +93,7 @@ section{
 }
 
 .info{
-  width: 45%;
+  width:65%;
 }
 
 .hobbies{
@@ -207,7 +207,7 @@ color: #FFD131;
 }
 
 .years{
-margin-right: 70px;
+/* margin-right: ; */
 width: 20%;
 }
 
