@@ -1,6 +1,3 @@
-{
-  outline: 1px dotted red;
-}
 
 .layout {
   color:black;
@@ -9,11 +6,11 @@
   justify-content: center;
   align-items: flex-start;
   height: auto;
-  line-height: 23px;
+
 }
 
 .left {
-  width:20%;
+  width:30%;
   height: 100%;
   background-color: #FFD131;
   padding-left: 100px;
@@ -33,29 +30,32 @@
   font-family: 'Roboto Slab', serif;
   font-size:20px;
 }
+
 .section-h4_right{
   font-family: 'Roboto Slab', serif;
   font-size:20px;
   margin-top: 40px;
 }
 
-body {
+body{
   background-color: white;
   height: 100%;
 }
 
 img{
-  width:70%;
+  width:65%;
   border-radius: color;
   background-size: cover;
   margin: auto;
+  margin-bottom: 10%;
   padding: 30px 0;
 }
 
 .image{
   text-align: center;
   border-radius: color;
-  height: 15%;
+  height: 25%;
+  margin-bottom: 10%;
 }
 
 .bare{
@@ -80,6 +80,7 @@ img{
   position: end;
   font-size: 55px;
   margin-top: 20px;
+  margin-bottom: 10%;
 }
 
 section{
@@ -94,10 +95,11 @@ section{
 
 .info{
   width:65%;
+  margin-right: 10%
 }
 
 .hobbies{
-  height: 5%;
+  height:30%;
 }
 
 .section-h4_left bare_hob{
@@ -105,8 +107,7 @@ section{
 }
 
 .about{
-  height: 45%;
-
+  height: 30%;
 }
 
 .contact{
@@ -115,7 +116,7 @@ section{
 
 .adress{
   color: #011627;
-  margin: 35px;
+  margin: 10%;
 }
 
 h4{
@@ -124,7 +125,7 @@ h4{
 
 .line{
   color: #ec4e20;
-  style: solid;
+
 }
 
 .flex{
@@ -141,7 +142,7 @@ h4{
 .name{
   font-size: 40px;
   color:#FFD131;
-  margin-bottom: 0px;
+  margin-bottom: 10%;
 }
 
 .position{
@@ -152,8 +153,8 @@ h4{
 }
 
 .namesurname{
-  margin-top: 80px;
-  margin-bottom: 20px;
+  display: block;
+  margin-bottom: 5%;
 }
 
 .surname{
@@ -164,18 +165,16 @@ h4{
 
 
 .up1{
-display: flex;
-margin-left: 25px;
-margin-bottom: 25px;
-
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 25px;
 }
 
 .horline{
-   height: 1px;
-   border: none;
-   border-top: 3px solid #FFD131;
-
-   }
+  height: 1px;
+  border: none;
+  border-top: 3px solid #FFD131;
+}
 
 .total{
   display:flex;
@@ -201,14 +200,14 @@ margin-bottom: 25px;
 }
 
 .fa2 {
-margin-right: 10px;
-font-size: inherit;
-color: #FFD131;
+  margin-right: 10px;
+  font-size: inherit;
+  color: #FFD131;
 }
 
 .years{
-margin-right:20px;
-width: 20%;
+  margin-right:20px;
+  width: 20%;
 }
 
 .years p{
